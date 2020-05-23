@@ -1,0 +1,8 @@
+src/static/*
+node_modules/*
+dist/*
+vue-shims.d.ts
+src/utils/request.ts
+src/utils/http.ts
+src/utils/index.ts
+src/plugins/router-patch.ts

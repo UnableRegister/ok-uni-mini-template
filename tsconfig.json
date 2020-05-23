@@ -1,0 +1,41 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "esnext",
+		"strict": true,
+		"jsx": "preserve",
+		"importHelpers": true,
+		"moduleResolution": "node",
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"sourceMap": true,
+		"allowJs": true,
+		"noImplicitAny": false,
+		"skipLibCheck": true,
+		"strictPropertyInitialization": false,
+		"baseUrl": ".",
+		"types": [
+			"webpack-env",
+			"@dcloudio/types/uni-app"
+		],
+		"paths": {
+			"@/*": [
+				"./src/*"
+			]
+		},
+		"lib": [
+			"esnext",
+			"dom",
+			"dom.iterable",
+			"scripthost"
+		]
+	},
+	"exclude": [
+			"node_modules",
+			"unpackage",
+			"babel.config.js",
+			"postcss.config.js",
+			"dist"
+	]
+}

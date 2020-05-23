@@ -1,0 +1,52 @@
+/*
+ * @Author: Wind Rises
+ * @Date: 2020-05-23 20:02:25
+ * @Last Modified by: Wind Rises
+ * @Last Modified time: 2020-05-23 20:02:53
+ */
+::-webkit-scrollbar
+    width 0 !important
+    height 0 !important
+
+// 去掉img默认占位 (当src为'')
+img:not([src])
+    opacity 0
+
+.relative
+    position relative
+
+.absolute
+    position absolute
+    top 0
+    left 0
+    z-index 2
+
+.shadow, .shadow-box
+    box-shadow 0 2upx 8upx 0px rgba(0, 0, 0, 0.08)
+
+.shadow-header
+    box-shadow 0 4rpx 6rpx 0 rgba(0, 0, 0, 0.05)
+
+.shadow-book
+    box-shadow 0 4rpx 6rpx 0 rgba(0, 0, 0, 0.15)
+
+.fcc
+    display flex
+    align-items center
+    justify-content center
+
+.line-1
+    text-overflow ellipsis
+    white-space nowrap
+    overflow hidden
+
+.line-2, .line-3
+    display -webkit-box
+    -webkit-box-orient vertical
+    -webkit-line-clamp 2
+    text-overflow ellipsis
+    word-break break-all
+    overflow hidden
+
+.line-3
+    -webkit-line-clamp 3
