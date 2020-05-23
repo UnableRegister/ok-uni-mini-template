@@ -1,29 +1,23 @@
-# porter
+# UNI-APP 小程序 TypeScript 项目模板。
 
-## Project setup
+## 目录结构
 ```
-yarn install
+uni-ts-template
+├─src                          ----------------------------------- 
+|  ├─components                ----------------------------------- 组件目录
+|  ├─libs                      ----------------------------------- 依赖的库文件
+|  ├─pages                     ----------------------------------- 业务页面文件存放的目录
+|  ├─plugins                   ----------------------------------- 插件
+|  ├─static                    ----------------------------------- 存放应用引用静态资源
+|  ├─store                     ----------------------------------- vuex
+|  ├─styles                    ----------------------------------- 公共样式
+|  ├─uview-ui                  ----------------------------------- 第三方组件
+|  ├─utils                     ----------------------------------- 函数工具
+|  ├─App.vue                   ----------------------------------- 应用配置，用来配置App全局样式以及监
+|  ├─main.ts                   ----------------------------------- Vue初始化入口文件
+|  ├─manifest.json             ----------------------------------- 配置应用名称、appid、logo、版本等打包信息
+|  ├─pages.json                ----------------------------------- 配置页面路由、导航条、选项卡等页面类信息
+|  ├─uni.scss                  ----------------------------------- 引入第三方组件样式
+|  ├─vue-shims.d.ts            ----------------------------------- vue类型声明
+├─package.json                 ----------------------------------- 项目配置
 ```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
-
-### Compiles and minifies for production
-```
-yarn run build
-```
-
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

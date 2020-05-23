@@ -1,7 +1,8 @@
 {
 	"name": "uni-mini-template",
 	"version": "0.1.0",
-	"private": true,
+	"description": "UNI-APP 小程序 TypeScript 项目模板。",
+	"keywords": ["UNI-APP", "TypeScript","ts", "TS", "miniProject", "mini project", "MiniProject", "mini-project"],
 	"scripts": {
 		"serve": "npm run dev:h5",
 		"build": "npm run build:h5",
